@@ -1,0 +1,45 @@
+section {
+  padding: 60px 20px;
+}
+
+#showcase {
+  padding: 0;
+  margin: 0;
+}
+
+.showcase-img {
+  height: 300px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+[data-img="1"] {
+  background-image: url(../img/view-1.jpg);
+}
+
+[data-img="2"] {
+  background-image: url(../img/view-2.jpg);
+}
+
+[data-img="3"] {
+  background-image: url(../img/view-3.jpg);
+}
+
+.team-item {
+  max-width: 250px;
+}
+
+#contact {
+  background-image: url(../img/slider-1.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+}
+
+@media (max-width: 968px) {
+  .showcase-img {
+    height: 400px;
+  }
+
+}
